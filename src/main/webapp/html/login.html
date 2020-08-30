@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form onsubmit="return false">
+    账号：<input type="text" name="bankCode"><br>
+    密码：<input type="password" name="password"><br>
+    <input type="submit" value="登录"><br>
+</form>
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js">
+
+</script>
+<script>
+
+        $("form").submit(function () {
+            $.ajax({
+                type: "post",
+                url: "../login",
+                data: $("form").serialize(),
+                dataType: "json",
+                success: function (data) {
+                    //data就是后端返回的数据 {"code":1, "info":null}
+                    if (data.code == 1) {
+                        window.location.href = "/html/user.html"
+                    } else {
+                        alert(data.info)
+                    }
+                }
+            })
+        })
+
+</script>
+</body>
+</html>
