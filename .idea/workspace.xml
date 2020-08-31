@@ -2,119 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6265a534-5071-4d42-9d14-9e97af815210" name="Default Changelist" comment="小汽车">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/rmb3.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ValidationMessages_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/common/CommonException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/common/JsonResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/controller/OtherController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/controller/TradeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/controller/UploadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/convert/CustomerDateConvert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/dao/LoginDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/dao/LoginMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/dao/OtherDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/dao/OtherMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/dao/TradeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/dao/TradeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/interceptor/LoginInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/interceptor/TimeInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/pojo/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/pojo/Other.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/pojo/Trade.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/service/LoginService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/service/OtherService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/service/TradeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/service/impl/LoginServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/service/impl/OtherServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/service/impl/TradeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/uitls/JsonUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fan/uitls/StrUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/META-INF/rmb3.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/ValidationMessages_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/common/CommonException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/common/JsonResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/controller/OtherController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/controller/TradeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/controller/UploadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/convert/CustomerDateConvert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/dao/LoginDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/dao/LoginMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/dao/OtherDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/dao/OtherMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/dao/TradeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/dao/TradeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/interceptor/LoginInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/interceptor/TimeInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/pojo/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/pojo/Other.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/pojo/Trade.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/service/LoginService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/service/OtherService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/service/TradeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/service/impl/LoginServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/service/impl/OtherServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/service/impl/TradeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/uitls/JsonUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/com/fan/uitls/StrUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/aspectjrt-1.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/classmate-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/druid-1.1.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/hibernate-validator-5.2.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/jackson-annotations-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/jackson-core-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/jackson-databind-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/jboss-logging-3.2.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/jsqlparser-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/lombok-1.18.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/mybatis-3.5.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/mybatis-spring-2.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/mysql-connector-java-5.1.48.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/pagehelper-5.1.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/servlet-api-3.0-alpha-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/slf4j-api-1.7.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/slf4j-log4j12-1.7.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/spring-aop-5.2.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/spring-beans-5.2.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/spring-context-5.2.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/spring-core-5.2.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/spring-expression-5.2.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/spring-jcl-5.2.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/spring-jdbc-5.2.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/spring-tx-5.2.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/spring-web-5.2.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/spring-webmvc-5.2.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/html/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/html/transMoney.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/html/transform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/html/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/html/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/img/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/img/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/js/jquery-1.12.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rmb3/js/jquery.form.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -125,8 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -223,7 +110,7 @@
       <workItem from="1598839930560" duration="1273000" />
       <workItem from="1598855040474" duration="380000" />
       <workItem from="1598855442791" duration="638000" />
-      <workItem from="1598865255243" duration="269000" />
+      <workItem from="1598865255243" duration="1223000" />
     </task>
     <task id="LOCAL-00001" summary="小汽车">
       <created>1598778587464</created>
@@ -232,11 +119,18 @@
       <option name="project" value="LOCAL" />
       <updated>1598778587464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="小汽车">
+      <created>1598865558587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598865558587</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3088000" />
+    <option name="totallyTimeSpent" value="4042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
